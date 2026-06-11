@@ -76,11 +76,7 @@
           "privacy-policy",
           "terms-of-use",
           "refund-policy",
-          "code-of-conduct",
-          {
-            "group": "test",
-            "pages": []
-          }
+          "code-of-conduct"
         ]
       }
     ]
