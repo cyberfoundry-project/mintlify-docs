@@ -91,5 +91,9 @@
       "x": "https://x.com/yourcompany",
       "linkedin": "https://linkedin.com/company/yourcompany"
     }
+  },
+  "banner": {
+    "content": "ALPHA STAGE -- THIS SITE IS CURRENTLY UNDER HEAVY UPDATES",
+    "type": "info"
   }
 }
