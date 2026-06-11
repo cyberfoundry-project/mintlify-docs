@@ -20,13 +20,9 @@
     "directory": "card",
     "tabs": [
       {
-        "tab": "Home",
+        "tab": "Welcome",
         "pages": [
-          "home",
-          "welcome",
-          "home",
-          "welcome",
-          ""
+          "welcome"
         ]
       },
       {
