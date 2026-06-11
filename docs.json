@@ -23,9 +23,20 @@
         "tab": "Home",
         "pages": [
           "overview",
-          "mission",
+          "mission"
+        ]
+      },
+      {
+        "tab": "Mission"
+      },
+      {
+        "tab": "About",
+        "pages": [
           "about"
         ]
+      },
+      {
+        "tab": "Projects"
       }
     ]
   },
