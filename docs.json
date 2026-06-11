@@ -13,7 +13,8 @@
     "library": "lucide"
   },
   "styling": {
-    "eyebrows": "breadcrumbs"
+    "eyebrows": "breadcrumbs",
+    "codeblocks": "system"
   },
   "navigation": {
     "global": {
@@ -22,16 +23,6 @@
           "anchor": "Home",
           "icon": "house",
           "href": "/"
-        },
-        {
-          "anchor": "Changelog",
-          "icon": "scroll-text",
-          "href": "https://www.mintlify.com/docs/changelog"
-        },
-        {
-          "anchor": "Help",
-          "icon": "life-buoy",
-          "href": "https://www.mintlify.com/docs/contact-support"
         }
       ]
     },
@@ -79,7 +70,12 @@
     "href": "https://cyberfoundry.tech"
   },
   "navbar": {
-    "links": [],
+    "links": [
+      {
+        "href": "https://cyberfoundry.tech",
+        "label": "cyberfoundry.tech"
+      }
+    ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
@@ -88,12 +84,20 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
+      "github": "https://github.com/cyberfoundry-project",
+      "website": "https://cyberfoundry.tech"
     }
   },
   "banner": {
     "content": "ALPHA STAGE -- THIS SITE IS CURRENTLY UNDER HEAVY UPDATES",
     "type": "info"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Geist"
+    },
+    "body": {
+      "family": "Inter"
+    }
   }
 }
