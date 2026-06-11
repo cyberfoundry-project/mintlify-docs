@@ -17,25 +17,15 @@
     "codeblocks": "system"
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Home",
-          "icon": "house",
-          "href": "/"
-        }
-      ]
-    },
     "directory": "card",
-    "products": [
+    "anchors": [
       {
-        "product": "Community",
+        "anchor": "Welcome",
         "pages": [
-          "overview-1"
+          "overview",
+          "about",
+          "untitled-page"
         ]
-      },
-      {
-        "product": "Community Tools"
       }
     ]
   },
