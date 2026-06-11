@@ -204,3 +204,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
+
+/* ============================================================
+   Hide the left sidebar on the standalone tab pages.
+   Each tab holds a single page, so the sidebar only ever shows
+   one redundant link and pushes content into a narrow column.
+   Scoped by current path so it stays per-page; wide content then
+   fills the full container width under the navbar.
+   ============================================================ */
+body:has(#content-area[data-current-path='/']) #sidebar,
+body:has(#content-area[data-current-path='/home']) #sidebar,
+body:has(#content-area[data-current-path='/about']) #sidebar,
+body:has(#content-area[data-current-path='/mission']) #sidebar,
+body:has(#content-area[data-current-path='/get-involved']) #sidebar,
+body:has(#content-area[data-current-path='/projects']) #sidebar,
+body:has(#content-area[data-current-path='/contact']) #sidebar {
+  display: none !important;
+}
