@@ -18,13 +18,13 @@
   },
   "navigation": {
     "directory": "card",
-    "anchors": [
+    "tabs": [
       {
-        "anchor": "Welcome",
+        "tab": "Home",
         "pages": [
           "overview",
-          "about",
-          "untitled-page"
+          "mission",
+          "about"
         ]
       }
     ]
