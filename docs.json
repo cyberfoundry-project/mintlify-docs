@@ -22,6 +22,7 @@
       {
         "tab": "Home",
         "pages": [
+          "welcome",
           ""
         ]
       },
