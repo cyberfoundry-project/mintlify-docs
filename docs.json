@@ -69,8 +69,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg",
+    "light": "/assets/branding/cyberfoundry-single-line-ember.svg",
+    "dark": "/assets/branding/cyberfoundry-single-line-ember.svg",
     "href": "https://cyberfoundry.tech"
   },
   "navbar": {
