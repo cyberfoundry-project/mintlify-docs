@@ -20,7 +20,7 @@
     "directory": "card",
     "tabs": [
       {
-        "tab": "Welcome",
+        "tab": "Home",
         "pages": [
           "welcome"
         ]
