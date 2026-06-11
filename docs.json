@@ -29,10 +29,13 @@
     "directory": "card",
     "products": [
       {
-        "product": "Community Tools",
+        "product": "Community",
         "pages": [
-          "overview"
+          "overview-1"
         ]
+      },
+      {
+        "product": "Community Tools"
       }
     ]
   },
