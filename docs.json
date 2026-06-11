@@ -78,6 +78,12 @@
           "refund-policy",
           "code-of-conduct"
         ]
+      },
+      {
+        "tab": "Sponsors",
+        "pages": [
+          "sponsors"
+        ]
       }
     ]
   },
