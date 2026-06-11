@@ -20,15 +20,18 @@
     "directory": "card",
     "tabs": [
       {
-        "tab": "Our Mission",
-        "pages": [
-          "mission"
-        ]
+        "tab": "Home"
       },
       {
         "tab": "About",
         "pages": [
           "about"
+        ]
+      },
+      {
+        "tab": "Mission",
+        "pages": [
+          "mission"
         ]
       },
       {
