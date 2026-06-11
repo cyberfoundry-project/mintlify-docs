@@ -65,6 +65,19 @@
         "pages": [
           "contact"
         ]
+      },
+      {
+        "tab": "Docs"
+      },
+      {
+        "tab": "Policies",
+        "pages": [
+          "policies",
+          "privacy-policy",
+          "terms-of-use",
+          "refund-policy",
+          "code-of-conduct"
+        ]
       }
     ]
   },
