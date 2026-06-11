@@ -111,19 +111,19 @@
         "items": [
           {
             "label": "Privacy",
-            "href": "/home"
+            "href": "/policies/privacy"
           },
           {
             "label": "Terms",
-            "href": "/home"
+            "href": "/policies/terms"
           },
           {
             "label": "Code of Conduct",
-            "href": "/home"
+            "href": "/policies/code-of-conduct"
           },
           {
             "label": "Contact",
-            "href": "/home"
+            "href": "/contact"
           }
         ]
       }
@@ -140,5 +140,8 @@
     "body": {
       "family": "Inter"
     }
+  },
+  "interaction": {
+    "drilldown": true
   }
 }
