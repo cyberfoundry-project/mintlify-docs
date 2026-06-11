@@ -9,7 +9,8 @@
     "dark": "#C44A0E"
   },
   "appearance": {
-    "default": "dark"
+    "default": "dark",
+    "strict": true
   },
   "background": {
     "decoration": "gradient",
@@ -94,7 +95,15 @@
             "href": "/home"
           },
           {
-            "label": "Terms of Use",
+            "label": "Terms",
+            "href": "/home"
+          },
+          {
+            "label": "Code of Conduct",
+            "href": "/home"
+          },
+          {
+            "label": "Contact",
             "href": "/home"
           }
         ]
