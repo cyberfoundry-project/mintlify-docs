@@ -74,7 +74,22 @@
     "socials": {
       "github": "https://github.com/cyberfoundry-project",
       "website": "https://cyberfoundry.tech"
-    }
+    },
+    "links": [
+      {
+        "header": "CyberFoundry",
+        "items": [
+          {
+            "label": "Privacy",
+            "href": "/home"
+          },
+          {
+            "label": "Terms of Use",
+            "href": "/home"
+          }
+        ]
+      }
+    ]
   },
   "banner": {
     "content": "ALPHA STAGE -- THIS SITE IS CURRENTLY UNDER HEAVY UPDATES",
