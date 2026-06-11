@@ -20,12 +20,6 @@
     "directory": "card",
     "tabs": [
       {
-        "tab": "Home",
-        "pages": [
-          "welcome"
-        ]
-      },
-      {
         "tab": "Our Mission",
         "pages": [
           "mission"
