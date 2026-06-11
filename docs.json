@@ -22,12 +22,14 @@
       {
         "tab": "Home",
         "pages": [
-          "overview",
-          "mission"
+          ""
         ]
       },
       {
-        "tab": "Mission"
+        "tab": "Mission",
+        "pages": [
+          "mission"
+        ]
       },
       {
         "tab": "About",
@@ -36,7 +38,16 @@
         ]
       },
       {
-        "tab": "Projects"
+        "tab": "Projects",
+        "pages": [
+          "projects"
+        ]
+      },
+      {
+        "tab": "Contact",
+        "pages": [
+          "contact"
+        ]
       }
     ]
   },
