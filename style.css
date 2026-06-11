@@ -48,7 +48,7 @@
 }
 
 #sidebar .nav-anchor span {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-family: var(--cf-font-mono);
   font-size: 12px;
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -146,4 +146,61 @@ body:has([data-product-guide-index]) #sidebar a.nav-anchor[href='/'] svg {
 img.nav-logo {
   max-width: 220px;
   height: auto;
+}
+
+/* ============================================================
+   CyberFoundry — brand layer (Branding Guide v1)
+   "Ember on carbon. Steel for structure." Dark-first; JetBrains
+   Mono terminals. docs.json carries the core theming (ember
+   colors, Space Grotesk / Inter, carbon background, dark code
+   blocks); this block adds the monospace family and brand tokens
+   that docs.json cannot express. Mintlify auto-loads this file.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root {
+  /* Foundation — steel greys for structure */
+  --cf-carbon: #0b0f14;
+  --cf-carbon-deep: #06090d;
+  --cf-slag: #161b22;
+  --cf-slag-raised: #1c232c;
+  --cf-anvil: #2a323d;
+  --cf-anvil-strong: #3a4452;
+  --cf-ash-deep: #4f5864;
+  --cf-ash: #7c8794;
+  --cf-smoke: #b6c0cc;
+  --cf-steam: #e6edf3;
+  --cf-paper: #f6f2ec;
+
+  /* Brand — the only accent */
+  --cf-ember: #ff6b1a;
+  --cf-ember-hot: #ff8538;
+  --cf-ember-deep: #c44a0e;
+  --cf-forge-glow: #ffb347;
+  --cf-spark: #ffd89e;
+
+  /* Semantic accents */
+  --cf-plasma: #7bd8e8; /* info */
+  --cf-toxic: #3fb950;  /* success */
+  --cf-flux: #e3b341;   /* warning */
+  --cf-rust: #f85149;   /* danger */
+
+  --cf-font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Monospace everywhere it matters — code, terminals, data (brand type system). */
+code,
+pre,
+kbd,
+samp,
+tt {
+  font-family: var(--cf-font-mono);
+}
+
+/* Geometric-precision rendering to match the brand specimens. */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }

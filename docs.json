@@ -4,9 +4,19 @@
   "name": "CyberFoundry",
   "description": "CyberFoundry is built for IT and Cybersecurity professionals to connect, collaborate, and share knowledge.",
   "colors": {
-    "primary": "#166E3F",
-    "light": "#26BD6C",
-    "dark": "#166E3F"
+    "primary": "#FF6B1A",
+    "light": "#FF8538",
+    "dark": "#C44A0E"
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "background": {
+    "decoration": "gradient",
+    "color": {
+      "dark": "#0B0F14",
+      "light": "#F6F2EC"
+    }
   },
   "favicon": "/favicon.ico",
   "icons": {
@@ -14,7 +24,7 @@
   },
   "styling": {
     "eyebrows": "breadcrumbs",
-    "codeblocks": "system"
+    "codeblocks": "dark"
   },
   "navigation": {
     "directory": "card",
@@ -97,7 +107,7 @@
   },
   "fonts": {
     "heading": {
-      "family": "Geist"
+      "family": "Space Grotesk"
     },
     "body": {
       "family": "Inter"
